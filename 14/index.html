@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Componente de upload</title>
+</head>
+<body>
+  <div class="w-screen h-screen bg-[#FBFAFF] flex items-center justify-center">
+    <section class="max-w-md w-full flex flex-col gap-5 leading-[130%]">
+      <div class="drag-files pt-7 pb-8 text-center rounded-lg bg-violet-50 border border-dashed border-violet-200 relative">
+        <i class="ph ph-cloud-arrow-up text-[2.75rem] text-violet-600 mb-3"></i>
+
+        <h2 class="font-bold text-[1rem] text-violet-400">Importe seus arquivos</h2>
+        <span class="text-[0.875rem] text-zinc-500">Arraste ou clique para fazer upload</span>
+
+        <input 
+          type="file"
+          class="opacity-0 absolute"
+        >
+      </div>
+  
+      <div class="flex flex-col gap-3">
+        <div class="flex gap-2 relative p-2 rounded-lg shadow-md">
+          <div class="w-12 h-14 flex items-center justify-center rounded bg-violet-100">
+            <i class="ph-fill ph-file text-2xl text-violet-400"></i>
+          </div>
+
+          <div class="flex flex-col gap-1 flex-1">
+            <div class="flex flex-col gap-[0.125rem]">
+              <strong class="font-bold text-sm text-zinc-700">Scann_158.pdf</strong>
+              <span class="font-medium text-xs text-zinc-500">30 MB / 74 MB</span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <div class="w-full h-2 rounded-full bg-zinc-200 overflow-hidden">
+                <div class="w-[46%] h-2 bg-violet-500"></div>
+              </div>
+              <span class="font-medium text-xs text-zinc-400">46%</span>
+            </div>
+          </div>
+
+          <i class="ph ph-x w-6 h-6 absolute top-2 right-2 flex items-center justify-center text-violet-500 hover:cursor-pointer"></i>
+        </div>
+
+        <div class="flex gap-2 relative p-2 rounded-lg shadow-md">
+          <div class="w-12 h-14 flex items-center justify-center rounded bg-green-100">
+            <i class="ph-fill ph-file text-2xl text-green-400"></i>
+          </div>
+
+          <div class="flex flex-col gap-1 flex-1">
+            <div class="flex flex-col gap-[0.125rem]">
+              <strong class="font-bold text-sm text-zinc-700">README.rm</strong>
+              <span class="font-medium text-xs text-zinc-500">12 KB</span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <div class="w-full h-2 rounded-full bg-zinc-200 overflow-hidden">
+                <div class="w-[100%] h-2 bg-green-500"></div>
+              </div>
+              <span class="font-medium text-xs text-zinc-400">100%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-2 relative p-2 rounded-lg shadow-md">
+          <div class="w-12 h-14 flex items-center justify-center rounded bg-red-100">
+            <i class="ph-fill ph-file text-2xl text-red-400"></i>
+          </div>
+
+          <div class="flex flex-col gap-1 flex-1">
+            <div class="flex flex-col gap-[0.125rem]">
+              <strong class="font-bold text-sm text-zinc-700">picture1.jpeg</strong>
+              <span class="font-medium text-xs text-zinc-500">6.3 MB</span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <div class="w-full h-2 rounded-full bg-zinc-200 overflow-hidden">
+                <div class="w-[0%] h-2 bg-red-500"></div>
+              </div>
+              <span class="font-medium text-xs text-red-400">Erro</span>
+            </div>
+          </div>
+
+          <i class="ph ph-arrow-counter-clockwise w-6 h-6 absolute top-2 right-2 flex items-center justify-center text-violet-500 hover:cursor-pointer"></i>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

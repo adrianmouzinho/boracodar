@@ -1,0 +1,10 @@
+.drag-files input {
+  all: unset;
+  opacity: 0;
+  inset: 0;
+  position: absolute;
+}
+
+.dragover {
+  background-color: #EBE5FF;
+}
