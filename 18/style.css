@@ -1,0 +1,5 @@
+.text-custom {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #312D74;
+  -webkit-text-fill-color: transparent;
+}
