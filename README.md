@@ -55,7 +55,7 @@
             <td>18</td>
             <td><a href="07">Card de personagem</a></td>
             <td>09/05/23</td>
-            <td align="center" ><a href="07"><img width="300px" src="18/.github/preview.png" /></a></td>
+            <td align="center" ><a href="18"><img width="300px" src="18/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>21</td>
