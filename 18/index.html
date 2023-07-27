@@ -22,54 +22,56 @@
 </head>
 
 <body class="w-screen h-screen bg-gradient-to-br from-[#030422] to-[#090114] text-white flex items-center justify-center">
-  <div class="atropos max-w-[916px] w-full flex items-center justify-between relative">
-    <div class="w-[348px] h-[486.4px] flex items-center justify-center bg-[#121214] bg-[url('assets/bg-left.png')] bg-no-repeat rounded-2xl overflow-hidden shadow-3xl">
+  <div class="atropos my-atropos max-w-[916px] w-full flex items-center justify-between relative">
+    <div class="min-w-[348px] h-[486.4px] flex items-center justify-center bg-[#121214] bg-[url('assets/bg-left.png')] bg-no-repeat rounded-2xl overflow-hidden shadow-3xl">
       <strong class="text-custom uppercase text-3xl font-bold tracking-[0.08em]">finn</strong>
     </div>
 
-    <div class="atropos-scale w-[436px] h-[608px] bg-[#121214] bg-[url('assets/bg-center.png')] bg-no-repeat rounded-2xl overflow-hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 shadow-4xl">
+    <div class="atropos-scale">
       <div class="atropos-rotate">
-        <div class="atropos-inner w-full h-full p-12 text-sm relative">
-            <div class="max-w-[263px] w-full mb-14">
-              <h1 class="text-3xl font-bold tracking-[0.08em] mb-4">Rey Skywalker</h1>
-              <p>Era uma catadora de sucata que descobriu ser sensível à Força durante sua busca ao lendário Mestre Jedi Luke Skywalker.</p>
-            </div>
-    
-            <div class="max-w-[198px] flex flex-col gap-4">
-              <div class="flex flex-col gap-[2px]">
-                <strong class="font-normal text-[#9C83A7]">Filmes</strong>
-                <span class="font-bold">The Force Awakens, The Last Jedi, The Rise of Skywalker & Forces of Destiny</span>
+        <div class="atropos-inner w-[436px] h-[608px] bg-[#121214] bg-[url('assets/bg-center.png')] bg-no-repeat rounded-2xl overflow-hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 shadow-4xl">
+          <div class="w-full h-full p-12 text-sm relative">
+              <div class="max-w-[263px] w-full mb-14">
+                <h1 class="text-3xl font-bold tracking-[0.08em] mb-4">Rey Skywalker</h1>
+                <p>Era uma catadora de sucata que descobriu ser sensível à Força durante sua busca ao lendário Mestre Jedi Luke Skywalker.</p>
               </div>
-              <div class="flex flex-col gap-[2px]">
-                <strong class="font-normal text-[#9C83A7]">Espécie</strong>
-                <span class="font-bold">Humana</span>
+      
+              <div class="max-w-[198px] flex flex-col gap-4">
+                <div class="flex flex-col gap-[2px]">
+                  <strong class="font-normal text-[#9C83A7]">Filmes</strong>
+                  <span class="font-bold">The Force Awakens, The Last Jedi, The Rise of Skywalker & Forces of Destiny</span>
+                </div>
+                <div class="flex flex-col gap-[2px]">
+                  <strong class="font-normal text-[#9C83A7]">Espécie</strong>
+                  <span class="font-bold">Humana</span>
+                </div>
+                <div class="flex flex-col gap-[2px]">
+                  <strong class="font-normal text-[#9C83A7]">Altura</strong>
+                  <span class="font-bold">1,7m</span>
+                </div>
+                <div class="flex flex-col gap-[2px]">
+                  <strong class="font-normal text-[#9C83A7]">Localidade</strong>
+                  <span class="font-bold">Jakku</span>
+                </div>
+                <div class="flex flex-col gap-[2px]">
+                  <strong class="font-normal text-[#9C83A7]">Armas</strong>
+                  <span class="font-bold">Sabre de luz, Blaster, Quarterstaff</span>
+                </div>
               </div>
-              <div class="flex flex-col gap-[2px]">
-                <strong class="font-normal text-[#9C83A7]">Altura</strong>
-                <span class="font-bold">1,7m</span>
-              </div>
-              <div class="flex flex-col gap-[2px]">
-                <strong class="font-normal text-[#9C83A7]">Localidade</strong>
-                <span class="font-bold">Jakku</span>
-              </div>
-              <div class="flex flex-col gap-[2px]">
-                <strong class="font-normal text-[#9C83A7]">Armas</strong>
-                <span class="font-bold">Sabre de luz, Blaster, Quarterstaff</span>
-              </div>
-            </div>
+          </div>
+          <img src="assets/character.png" alt="Rey Skywalker" class="absolute bottom-0 right-0 -z-10 opacity-100">
         </div>
-        <img src="assets/character.png" alt="Rey Skywalker" class="absolute bottom-0 right-0 -z-10 opacity-100">
       </div>
     </div>
 
-    <div class="w-[348px] h-[486.4px] flex items-center justify-center bg-[#121214] bg-[url('assets/bg-right.png')] bg-no-repeat rounded-2xl overflow-hidden shadow-3xl">
+    <div class="min-w-[348px] h-[486.4px] flex items-center justify-center bg-[#121214] bg-[url('assets/bg-right.png')] bg-no-repeat rounded-2xl overflow-hidden shadow-3xl">
       <strong class="text-custom uppercase text-3xl font-bold tracking-[0.08em]">bb-8</strong>
     </div>
   </div>
 
   <script>
     new Atropos({
-      el: ".atropos",
+      el: ".my-atropos",
     });
   </script>
 </body>
