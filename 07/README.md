@@ -14,7 +14,7 @@
 
 <p align="center">O site de carnaval é uma página web que possui uma busca de blocos de carnaval.</p>
 <p align="center"> 
-  <img src=".github/preview.png" width="100%">
+  <img src=".github/preview.jpg" width="100%">
   <a href="https://adrianmouzinho.github.io/boracodar/07/index.html">Acesse o projeto</a>
 </p>
 
