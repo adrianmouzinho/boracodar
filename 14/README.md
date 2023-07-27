@@ -1,4 +1,4 @@
-<h1 align="center">Card de personagem </h1>
+<h1 align="center">Componente de upload</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,10 +12,10 @@
 
 <br>
 
-<p align="center">O projeto é um componente de card que contém os dados de um personagem de ficção.</p>
+<p align="center">O componente de upload serve para fazer envio de arquivos.</p>
 <p align="center"> 
   <img src=".github/preview.png" width="100%">
-  <a href="https://adrianmouzinho.github.io/boracodar/18/index.html">Acesse o projeto</a>
+  <a href="https://adrianmouzinho.github.io/boracodar/14/index.html">Acesse o projeto</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -23,14 +23,14 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- Tailwindcss
-- Atroposjs
+- TailwindCSS
+- Phosphor Icons
 - Git e Github
 - Figma
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1235589928611910732). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1225440656930547927). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 

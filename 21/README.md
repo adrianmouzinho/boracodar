@@ -1,10 +1,6 @@
 <h1 align="center">Carrinho de compras</h1>
 
 <p align="center">
-#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-</p>
-
-<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -16,8 +12,10 @@
 
 <br>
 
-<p align="center">
+<p align="center">O carrinho de compras é um componente fundamental em qualquer e-commerce, que pode ser utilizado como um drawer ou dropdown em aplicações web ou mobile.</p>
+<p align="center"> 
   <img src=".github/preview.png" width="100%">
+  <a href="https://adrianmouzinho.github.io/boracodar/21/index.html">Acesse o projeto</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -27,9 +25,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - Git e Github
 - Figma
-
-**O que aprendemos nesse desafio:**
-
 
 ## 🔖 Layout
 

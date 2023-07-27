@@ -1,8 +1,4 @@
-<h1 align="center"> Site para encontrar seu bloco no carnaval </h1>
-
-<p align="center">
-#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-</p>
+<h1 align="center">Site para encontrar seu bloco no carnaval </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,8 +12,10 @@
 
 <br>
 
-<p align="center">
-  <img src=".github/preview.jpg" width="100%">
+<p align="center">O site de carnaval é uma página web que possui uma busca de blocos de carnaval.</p>
+<p align="center"> 
+  <img src=".github/preview.png" width="100%">
+  <a href="https://adrianmouzinho.github.io/boracodar/07/index.html">Acesse o projeto</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -46,7 +44,3 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)

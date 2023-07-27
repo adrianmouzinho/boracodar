@@ -46,10 +46,28 @@
             <td align="center" ><a href="07"><img width="300px" src="07/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
+            <td>14</td>
+            <td><a href="14">Componente de upload</a></td>
+            <td>14/04/23</td>
+            <td align="center" ><a href="14"><img width="300px" src="14/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
             <td>18</td>
             <td><a href="07">Card de personagem</a></td>
             <td>09/05/23</td>
             <td align="center" ><a href="07"><img width="300px" src="18/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td><a href="21">Carrinho de compras</a></td>
+            <td>26/05/23</td>
+            <td align="center" ><a href="21"><img width="300px" src="21/.github/preview.png" /></a></td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td><a href="29">Antes e Depois com IA</a></td>
+            <td>27/07/23</td>
+            <td align="center" ><a href="29"><img width="300px" src="29/.github/preview.png" /></a></td>
         </tr>
     </tbody>
 </table></p>
